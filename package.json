@@ -1,0 +1,31 @@
+{
+  "name": "stats-cloner",
+  "description": "Create reliable copies of Node.js fs.Stats objects, ensuring all original methods are preserved.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Mehmet Bozkurt <mehmetxbozkurt@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mehmetxbozkurt/stats-cloner"
+  },
+  "bugs": {
+    "url": "https://github.com/mehmetxbozkurt/stats-cloner/issues"
+  },
+  "homepage": "https://github.com/mehmetxbozkurt/stats-cloner",
+  "keywords": [
+    "stats",
+    "fs",
+    "clone",
+    "copy",
+    "prototype"
+  ]
+}
